@@ -42,36 +42,37 @@
 <body class="text_font">
     <header class=" md:container md:mx-auto  lg:container lg:mx-auto pb-8 lg:pb-14 ">
         <nav >
-            <div class="navbar">
+            <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class=" lg:text-4xl font-extrabold">Hokey<spanv class="text-common-clr">BD</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
                       <li><a>Home</a></li>
                       <li><a>About</a></li>
                       <li><a>Pages</a></li>
                       <li><a>Blog</a></li>
                       <li><a>Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end ">
-                    
-                  <a class="btn">Button</a>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass mr-3"></i>
+                    <a class="btn bg-common-clr text-white ">Get Ticket</a>
                 </div>
               </div>
+            
         </nav>
     </header>
     <main class="md:container md:mx-auto  lg:container lg:mx-auto lg:pb-14">
@@ -443,14 +444,14 @@
                     <div class="label">
                       <span class="label-text  text-xl font-bold">Your Name</span>
                     </div>
-                    <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs bg-slate-100 " />
                   
                 </label>
                 <label class="form-control w-full max-w-xs">
                     <div class="label">
                       <span class="label-text text-xl font-bold">Your Email</span>
                     </div>
-                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs bg-slate-100 " />
                   
                 </label>
               </div>
@@ -459,24 +460,24 @@
                     <div class="label">
                       <span class="label-text  text-xl font-bold">Subject</span>
                     </div>
-                    <input type="text" placeholder="Enter your Subject" class="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder="Enter your Subject" class="input input-bordered w-full max-w-xs bg-slate-100 " />
                   
                 </label>
                 <label class="form-control w-full max-w-xs">
                     <div class="label">
                       <span class="label-text text-xl font-bold">Your Phone Number</span>
                     </div>
-                    <input type="text" placeholder="Enter your Phone Number" class="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder="Enter your Phone Number" class="input input-bordered w-full max-w-xs bg-slate-100 " />
                   
                 </label>
               </div>
               <div>
-                <label class="form-control m-7">
+                <label class="form-control m-7 ">
                     <div class="label">
                         <span class="label-text text-xl font-bold">Message</span>
                     </div>
                    
-                    <textarea class="textarea textarea-bordered border max-w-2xl h-64" placeholder="Write your message"></textarea>
+                    <textarea class="textarea textarea-bordered border max-w-2xl h-64  bg-slate-100 " placeholder="Write your message"></textarea>
 
                     <button class="rounded-lg sm:btn-sm md:btn-md lg:max-w-2xl mt-4 bg-common-clr text-white text-xl">Send Message</button>
                   
@@ -487,10 +488,68 @@
             </div>
         </div>
         <!-- get touch part end  here -->
+        <!-- social media  part star -->
+        <div class="Social_media_title my-20 border p-12 lg:my-20 m-4 bg-slate-100 ">
+            <div class="title text-center lg:py-15 pb-4 lg:space-y-6 ">
+                <h2 class="text-2xl   font-extrabold">Social Media</h2>
+                <i class="fa-brands fa-twitter mr-2"></i>
+                <i class="fa-brands fa-facebook-f mr-2"></i>
+                <i class="fa-brands fa-instagram mr-2"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <!-- social media  part end -->
        
     </main>
-    <footer>
+    <footer class="bg-black text-white lg:py-28">
+      <div class="container m-auto lg:flex lg:justify-between">
+        <div class="foot_1 lg:space-y-6 space-y-2 lg:text-start text-center  p-4">
+            <a class=" text-2xl font-bold">Hokey<spanv class="text-common-clr">BD</span></a>
+            <p class="w-72">Headers are located in the margin area at the top of the page. Footers are located in the margin area at the bottom of a page. Headers and footers generally contain document information, such as the file name, author, date created, page numbering and the like.</p>
+            <p><i class="fa-solid fa-envelope text-common-clr mr-2"></i>hockeys@support.com</p>
+            <p><i class="fa-solid fa-phone text-common-clr mr-2"></i>(+62) 123-321-543</p>
+        </div>
 
+   
+        <div class="space-y-4 p-4">
+          <div class="foot_flex_main lg:flex-none flex gap-20 lg:gap-72 ">
+            <div class="flex_1">
+                <h2 class="text-2xl font-bold">Company</h2>
+                <ul class="lg:space-y-4 space-y-1 ">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News  & Article</a></li>
+                    <li><a href="#">Legal Notice</a></li>
+                </ul>
+            </div>
+            <div class="flex_2 ">
+                <h2 class="text-2xl font-bold">Support</h2>
+                <ul class="lg:space-y-4 space-y-1">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Ticket Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    
+                </ul>
+              </div>
+          </div>
+        </div>
+      
+        
+       
+
+        <div class="space-y-2 text-center">
+            <h2 class="text-2xl font-bold">Services</h2>
+            <ul class="lg:space-y-4 space-y11">
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Group Lesson</a></li>
+                <li><a href="#">Private Lesson</a></li>
+                <li><a href="#">Hockeys for kids</a></li>
+                <li><a href="#">Hockeys for Adult</a></li>
+            </ul>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
